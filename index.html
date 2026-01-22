@@ -6,90 +6,151 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 
 <body>
-    <header class="">
-        <div class="container d-flex">
+    <!-- header -->
+    <header class="head">
+        <div class="container d-flex header-wrap">
             <div class="logo">
-                <img src="./img/Logo.png" alt="logo" width="100px">
+                <img src="./img/Logo.png" alt="logo" width="77.61" height="14.38">
             </div>
-            <div class="d-flex gap">
-                <ul class="d-flex gap">
+
+            <nav class="navbar">
+                <ul class="d-flex nav-list">
                     <li>Home</li>
                     <li>Features</li>
                     <li>Community</li>
                     <li>Blog</li>
                     <li>Pricing</li>
+                    <li class="nav-btn">
+                        <button class="reg-now-btn">
+                            Register Now
+                            <i class="bi bi-arrow-right-short"></i>
+                        </button>
+                    </li>
                 </ul>
-                <div class="d-flex">
-                    <button>Register Now
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </button>
-
-                </div>
-            </div>
-
+            </nav>
         </div>
     </header>
-    <section class="padding bg">
+
+    <!-- hero-section -->
+    <section class="lessons">
         <div class="container">
-            <div class="row d-flex">
-                <div class="col-6">
-                    <div>
-                        <h1>Lessons and insights
-                            <br>
-                            <span>from 8 years</span>
+            <div class="d-flex">
+
+                <div class="content">
+                    <div class="heading-sec">
+                        <h1 class="heading">
+                            Lessons and insights <br>
+                            <span class="sub-heading">from 8 years</span>
                         </h1>
-                        <p class="des">Where to grow your business as a photographer: site or social media?</p>
+                    </div>
+
+                    <p class="sub-title">
+                        Where to grow your business as a photographer: site or social media?
+                    </p>
+
+                    <button class="register-button">Register</button>
+                </div>
+
+                <div class="image-sec">
+                    <img src="./img/img-2.png" alt="" class="lesson-img">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- client section -->
+    <section class="client">
+        <div class="container">
+            <div>
+                <div>
+                    <h3 class="client-title">Our Clients</h3>
+                    <p class="client-subtitle">We have been working with some Fortune 500+ clients</p>
+                </div>
+                <div class="">
+                    <div class="client-logos">
+                        <div class="client-icon">
+                            <img src="./img/Logo (1).png" alt="logo-1">
+                        </div>
+                        <div class="client-icon">
+                            <img src="./img/Logo (2).png" alt="logo-2">
+
+                        </div>
+                        <div class="client-icon">
+                            <img src="./img/Logo (3).png" alt="logo-3">
+                        </div>
                         <div>
-                            <button class="register-btn">Register</button>
+                            <img src="./img/Logo (4).png" alt="logo-4">
+                        </div>
+                        <div class="client-icon">
+                            <img src="./img/Logo (5).png" alt="logo-5">
+                        </div>
+                        <div class="client-icon">
+                            <img src="./img/Logo (6).png" alt="logo-6">
+                        </div>
+                        <div class="client-icon">
+                            <img src="./img/Logo (7).png" alt="logo-7">
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
-                    <div>
-                        <img src="./img/img-2.png" width="250px" height="250px" alt="">
-                    </div>
-                </div>
             </div>
         </div>
+
     </section>
-    <section class="padding">
+
+    <!-- community section -->
+    <section class="community-sec">
         <div class="container">
             <div>
-                <h1 class="client">Our clients</h1>
-                <p class="client-des">We have been working with some Fortune 500+ clients</p>
-            </div>
-            <div class="d-flex icon">
                 <div>
-                    <img src="./img/Logo (1).png" alt="logo-1">
+                    <h3 class="community-title">Manage your entire community <br> in a single system</h3>
+                    <p class="community-subtitle">Who is Nextcent suitable for? </p>
                 </div>
-                <div>
-                    <img src="./img/Logo (2).png" alt="logo-2">
+                <div class="card-row">
+                    <div class="card">
+                        <div class="">
+                            <img src="./img/icon-8.png" alt="icon">
+                        </div>
+                        <h3 class="membership-title">Membership <br> Organisations</h3>
+                        <p class="membership-subtitle">
+                            Our membership management software provides full automation of membership
+                            renewals and payments
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <div class="">
+                            <img src="./img/Icon-9.png" alt="icon">
+                        </div>
+                        <h3 class="membership-title">National <br> Associations</h3>
+                        <p class="membership-subtitle">
+                            Our membership management software provides full automation of membership
+                            renewals and <br> payments
+                        </p>
+                    </div>
+
+                    <div class="card">
+                        <div class="">
+                            <img src="./img/Icon-10.png" alt="icon">
+                        </div>
+                        <h3 class="membership-title">Clubs And <br> Groups</h3>
+                        <p class="membership-subtitle">
+                            Our membership management software provides full automation of membership
+                            renewals and payments
+                        </p>
+                    </div>
                 </div>
-                <div>
-                    <img src="./img/Logo (3).png" alt="logo-3">
-                </div>
-                <div>
-                    <img src="./img/Logo (4).png" alt="logo-4">
-                </div>
-                <div>
-                    <img src="./img/Logo (5).png" alt="logo-5">
-                </div>
-                <div>
-                    <img src="./img/Logo (6).png" alt="logo-6">
-                </div>
-                <div>
-                    <img src="./img/Logo (7).png" alt="logo-7">
-                </div>
-            </div>
 
 
-        </div>
+            </div>
     </section>
-    <section class="padding">
+
+
+    <!-- <section class="padding">
         <div class="container">
             <div>
                 <h1 class="client">Manage your entire community <br> in a single system</h1>
@@ -126,9 +187,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section class="padding">
+    <!-- <section class="padding">
         <div class="container">
             <div class="row d-flex">
 
@@ -156,8 +217,8 @@
 
             </div>
         </div>
-    </section>
-    <section class="padding bg">
+    </section> -->
+    <!-- <section class="padding bg">
         <div class="container">
             <div class="row d-flex">
                 <div class="col-6">
@@ -207,9 +268,9 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section class="padding">
+    <!-- <section class="padding">
         <div class="container">
             <div class="row d-flex">
 
@@ -240,11 +301,11 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
 
 
 
-    <section class="padding">
+    <!-- <section class="padding">
         <div class="container">
             <div class="row d-flex">
 
@@ -279,8 +340,8 @@
 
             </div>
         </div>
-    </section>
-    <section class="padding">
+    </section> -->
+    <!-- <section class="padding">
         <div class="container">
             <div class="center">
                 <h1 class="title">Caring is the new marketing</h1>
@@ -327,8 +388,8 @@
                 </div>
             </div>
         </div>
-    </section>
-    <section class="padding bg">
+    </section> -->
+    <!-- <section class="padding bg">
         <div class="container">
             <h1 class="heading center">Pellentesque suscipit <br> fringilla libero eu.</h1>
 
@@ -339,20 +400,21 @@
             </div>
 
         </div>
-    </section>
+    </section> -->
 
-    <footer class="padding bg-black">
+    <!-- <footer class="padding bg-black">
         <div class="container">
-            <div class="row d-flex">
+            <div class="row justify-between">
                 <div class="col-6">
                     <div class="footer-logo">
                         <img src="./img/Logo-footer.png" alt="" width="100px">
                     </div>
-
                     <div>
-                        <p class="des-footer">Copyright © 2020 Landify UI Kit.</p>
-                        <p class="des-footer">All rights reserved</p>
-
+                        <p class="des-footer">Copyright © 2020 Landify UI Kit.
+                            <br> <br>
+                        All rights reserved</p>
+                    </div>
+                    <div class="ms">
                         <div class="footer-gap">
                             <span class="social-icon">
                                 <i class="fa-brands fa-instagram"></i>
@@ -369,19 +431,9 @@
 
                         </div>
                     </div>
-
-
-                    <div class="d-flex">
-                        <div>
-                            <span class="social-icon">
-                                <i class="fa-brands fa-instagram"></i>
-                            </span>
-                        </div>
-
-                    </div>
-
-                    <div class="col-6">
-                        <div class="d-flex gap">
+                </div>
+                  <div class="col-6">
+                        <div class="display gap text-left">
                             <div>
                                 <h5 class="footer-title">Company</h5>
 
@@ -406,7 +458,7 @@
                             </div>
                             <div>
                                 <h5 class="footer-title">Stay up to date</h5>
-                                <div class="">
+                                <div class="mb">
                                     <button class="d-flex footer-btn">
                                         <p>Your email address</p>
                                         <i class="fa-regular fa-paper-plane"></i>
@@ -416,9 +468,12 @@
                             </div>
                         </div>
                     </div>
-                </div>
+
             </div>
-    </footer>
+
+
+           
+    </footer> -->
 </body>
 
 </html>
