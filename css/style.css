@@ -211,29 +211,27 @@
 }
 
 .card-row {
-  display: flex;
-  justify-content: space-between;
-  gap:100px !important;
-  margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px !important;
+    margin-top: 40px;
 }
 
 .card {
-  width: 208.12px;
-  height: 182.1px;
-  padding-top: 16.71px;
-  padding-bottom: 16.71px;
-  padding-left: 22.27px;
-  padding-right: 22.27px;
-  background-color: #ffffff;
-  border-radius: 5.57px;
-  text-align: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  transition: all 0.3s ease;
+    width: 208.12px;
+    height: 182.1px;
+    padding-top: 16.71px;
+    padding-bottom: 16.71px;
+    padding-left: 22.27px;
+    padding-right: 22.27px;
+    background-color: #ffffff;
+    border-radius: 5.57px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
 }
 
-
-
-.membership-title{
+.membership-title {
     font-weight: 700;
     font-size: 19.49px;
     width: 185.85px;
@@ -242,17 +240,139 @@
     color: #4D4D4D;
     text-align: center !important;
 }
-.membership-subtitle{
+
+.membership-subtitle {
     font-weight: 400;
     font-size: 9.74px;
     line-height: 13.92px;
     width: 174.71px;
-    height:42px;
+    height: 42px;
     text-align: center !important;
     color: #717171;
     margin-top: 6px;
 
 
+}
+
+/* unlock section */
+
+
+.unlock-sec {
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-right: 200px;
+}
+
+.unlock-heading {
+    height: 187.9px;
+    width: 460.1px;
+    gap: 22.27px;
+    margin-right: -150px !important;
+
+}
+
+.unlock-title {
+    width: 418.34px;
+    height: 129.34px;
+    gap: 11.14px;
+}
+
+.unlock-maintitle {
+    font-weight: 600;
+    font-size: 25.06px;
+    line-height: 30.63px;
+    width: 418.34px;
+    height: 62px;
+    color: #4D4D4D;
+}
+
+.unlock-subtitle {
+    font-weight: 400;
+    font-size: 9.74px;
+    line-height: 13.92px;
+    color: #717171;
+    width: 418.34px;
+    height: 56px;
+    margin-top: 20px;
+}
+
+.learnmore-btn {
+    width: 105.55px;
+    height: 36.49px;
+    border-radius: 2.78px;
+    padding-top: 9.74px;
+    padding-bottom: 9.74px;
+    padding-left: 22.27px;
+    padding-right: 22.27px;
+    gap: 6.96px;
+    background-color: #4CAF4F;
+    color: #FFFFFF;
+    font-size: 11.14px;
+    font-weight: 500;
+    align-items: center;
+    margin-top: 20px;
+    border: none;
+
+}
+
+/* acheivement section */
+.achievements-sec {
+  background-color: #F5F7FA;
+  padding: 60px 0;
+}
+
+.achievements-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.achievements-title {
+  max-width: 380px;
+}
+
+.achievements-maintitle {
+  font-size: 25px;
+  font-weight: 600;
+  color: #4D4D4D;
+}
+
+.achievements-subtitle {
+  color: #4CAF4F;
+}
+
+.achievements-sentence {
+  font-size: 12px;
+  color: #18191F;
+  margin-top: 10px;
+}
+
+.achievements-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px 60px;
+}
+
+.stat-item {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.stat-item img {
+  width: 33px;
+}
+
+.achievements-name {
+  font-size: 19px;
+  font-weight: 900;
+  color: #4D4D4D;
+}
+
+.achievements-member {
+  font-size: 11px;
+  color: #717171;
 }
 
 
@@ -540,8 +660,5 @@
         height: 30px;
     }
 }
+
 /* community section responsive */
-
-
-
-
