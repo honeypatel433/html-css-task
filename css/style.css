@@ -67,6 +67,99 @@ body {
     margin: 0;
 }
 
+
+/* header responsive */
+
+@media (max-width: 768px) {
+
+    .nav-list {
+        gap: 18px;
+    }
+
+    .nav-list li {
+        font-size: 10.5px;
+    }
+
+    .reg-now-btn {
+        padding: 8px 18px;
+        font-size: 10.5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-list {
+        gap: 18px;
+    }
+
+    .nav-list li {
+        font-size: 10.5px;
+    }
+
+    .reg-now-btn {
+        padding: 8px 16px;
+        font-size: 10.5px;
+    }
+}
+
+@media (max-width: 425px) {
+    .head .d-flex {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .logo {
+        order: 1;
+    }
+
+    .navbar {
+        order: 2;
+    }
+
+    .nav-btn {
+        order: 3;
+        width: 100%;
+    }
+
+    .reg-now-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nav-list {
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .nav-list li {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    .nav-list {
+        gap: 8px;
+    }
+
+    .nav-list li {
+        font-size: 9.5px;
+    }
+}
+
+@media (max-width: 320px) {
+    .nav-list {
+        gap: 6px;
+    }
+
+    .nav-list li {
+        font-size: 9px;
+    }
+}
+
+
+
+
 /* hero section */
 .lessons {
     background-color: #F5F7FA;
@@ -79,11 +172,7 @@ body {
     padding: 0 100px;
 }
 
-.d-flex {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+
 
 .content {
     max-width: 460px;
@@ -199,7 +288,7 @@ body {
         font-size: 20px;
     }
 
-  
+
 
     .client-logos {
         gap: 20px;
@@ -214,7 +303,6 @@ body {
 
 
 /* community section */
-/* ============ COMMUNITY SECTION ============ */
 
 .community-sec {
     margin-top: 60px;
@@ -238,16 +326,14 @@ body {
     margin-top: 12px;
 }
 
-/* Cards Layout */
 .card-sec {
     display: flex;
     justify-content: center;
     gap: 40px;
     margin-top: 40px;
-    flex-wrap: wrap; /* allows auto responsive */
+    flex-wrap: wrap;
 }
 
-/* Individual Card */
 .card {
     background: #ffffff;
     border-radius: 8px;
@@ -278,6 +364,7 @@ body {
     color: #717171;
     margin-top: 10px;
 }
+
 /* community section responsive */
 @media (max-width: 425px) {
     .community-sec {
@@ -318,6 +405,7 @@ body {
         line-height: 18px;
     }
 }
+
 @media (max-width: 375px) {
     .community-title {
         font-size: 18px;
@@ -341,6 +429,7 @@ body {
         font-size: 12px;
     }
 }
+
 @media (max-width: 320px) {
     .community-title {
         font-size: 16px;
@@ -373,9 +462,6 @@ body {
 
 /* unlock section */
 
-
-/* ============ UNLOCK SECTION ============ */
-
 .unlock-section {
     margin-top: 70px;
 }
@@ -384,9 +470,6 @@ body {
     align-items: center;
     gap: 60px;
 }
-
-/* Image */
-
 
 .unlock-maintitle {
     font-weight: 600;
@@ -417,7 +500,8 @@ body {
 .learnmore-btn:hover {
     background-color: #43a047;
 }
-/* Tablet */
+
+/* unlock section responsive */
 @media (max-width: 992px) {
     .unlock-sec {
         flex-direction: column;
@@ -425,20 +509,19 @@ body {
         gap: 40px;
     }
 
-  }
-  
-    @media (max-width:768px) {
-       
-    .unlock-subtitle{
+}
+
+@media (max-width:768px) {
+
+    .unlock-subtitle {
         text-align: left;
     }
-    .unlock-maintitle{
+
+    .unlock-maintitle {
         text-align: center;
         font-size: 23px;
     }
 }
-
-/* Mobile */
 @media (max-width: 576px) {
     .unlock-maintitle {
         font-size: 22px;
@@ -453,6 +536,7 @@ body {
         width: 100%;
     }
 }
+
 @media (max-width: 425px) {
     .unlock-section {
         margin-top: 45px;
@@ -464,9 +548,7 @@ body {
         text-align: center;
     }
 
-    .unlock-img img {
-        max-width: 250px;
-    }
+   
 
     .unlock-maintitle {
         font-size: 20px;
@@ -484,10 +566,9 @@ body {
         padding: 12px;
     }
 }
+
 @media (max-width: 320px) {
-    .unlock-img img {
-        max-width: 200px;
-    }
+    
 
     .unlock-maintitle {
         font-size: 16px;
@@ -572,8 +653,6 @@ body {
 
 /* achievements section responsive */
 
-/* ============ ACHIEVEMENTS RESPONSIVE FIX ============ */
-
 @media (max-width: 992px) {
     .achievements-wrapper {
         flex-direction: column;
@@ -587,7 +666,6 @@ body {
 
     .achievements-group {
         grid-template-columns: 1fr 1fr;
-        /* gap: 30px; */
         justify-items: center;
     }
 
@@ -595,18 +673,18 @@ body {
         justify-content: center;
     }
 }
+
 @media (max-width:768) {
-    .achievements-group{
+    .achievements-group {
         grid-template-columns: 1fr 1fr;
 
     }
-    
+
 }
 
 @media (max-width: 576px) {
     .achievements-group {
         grid-template-columns: 1fr;
-        /* stack stats */
         gap: 25px;
     }
 
@@ -668,15 +746,17 @@ body {
 
 /* calender section responsive */
 @media (max-width:768px) {
-    .calender-subtitle{
+    .calender-subtitle {
         text-align: left;
     }
-    .calender-maintitle{
+
+    .calender-maintitle {
         text-align: center;
         font-size: 23px;
     }
-    
+
 }
+
 @media (max-width: 425px) {
     .calender-sec {
         flex-direction: column;
@@ -698,6 +778,7 @@ body {
         width: 100%;
     }
 }
+
 @media (max-width: 375px) {
     .calender-sec img {
         max-width: 260px;
@@ -716,6 +797,7 @@ body {
         font-size: 12.5px;
     }
 }
+
 @media (max-width: 320px) {
     .calender-sec img {
         max-width: 220px;
@@ -736,124 +818,125 @@ body {
         padding: 10px;
     }
 }
+
 /* customer section */
 
 .customer-sec {
-  /* width: 100%; */
-  background-color: #F5F7FA;
-  padding: 50px 0px;
+    background-color: #F5F7FA;
+    padding: 50px 0px;
+    margin-top: 40px;
 }
-
-
 
 .customer-wrapper {
-  display: flex;
-  align-items: center;
-  gap: 60px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
 }
 
-
 .customer-subtitle {
-  font-size: 15px;
-  line-height: 1.7;
-  color: #717171;
-  margin-bottom: 18px;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #717171;
+    margin-bottom: 18px;
 }
 
 .customer-name {
-  font-size: 18px;
-  font-weight: 600;
-  color: #4CAF4F;
-  margin-bottom: 4px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #4CAF4F;
+    margin-bottom: 4px;
 }
 
 .customer-paragraph {
-  font-size: 14px;
-  color: #89939E;
-  margin-bottom: 20px;
+    font-size: 14px;
+    color: #89939E;
+    margin-bottom: 20px;
 }
 
 .meet-all {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
 }
 
 .customer-content {
-  font-size: 15px;
-  font-weight: 600;
-  color: #4CAF4F;
+    font-size: 15px;
+    font-weight: 600;
+    color: #4CAF4F;
 }
 
 .meet-all img {
-  width: 16px;
+    width: 16px;
 }
 
 /* customer section responsive */
 @media (min-width: 1440px) {
-  .customer-sec {
-    padding: 80px 120px;
-  }
+    .customer-sec {
+        padding: 80px 120px;
+    }
 }
 
 
 @media (max-width: 768px) {
-  .customer-sec {
-    padding: 50px 40px;
-    margin-top: 30px;
-  }
+    .customer-sec {
+        padding: 50px 40px;
+        margin-top: 30px;
+    }
 
-  .customer-wrapper {
-    flex-direction: column;
-    text-align: center;
-  }
+    .customer-wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
 
- 
-  .customer-subsec {
-    max-width: 100%;
-  }
 
-  .meet-all {
-    justify-content: center;
-  }
+    .customer-subsec {
+        max-width: 100%;
+    }
+
+    .meet-all {
+        justify-content: center;
+    }
 }
+
 @media (max-width: 425px) {
-  .customer-sec {
-    padding: 40px 20px;
-    margin-top: 20px;
-  }
+    .customer-sec {
+        padding: 40px 20px;
+        margin-top: 20px;
+    }
 
-  .customer-subtitle {
-    font-size: 14px;
-  }
+    .customer-subtitle {
+        font-size: 14px;
+    }
 
-  .customer-name {
-    font-size: 16px;
-  }
+    .customer-name {
+        font-size: 16px;
+    }
 }
+
 @media (max-width: 375px) {
-  .customer-img img {
-    width: 240px;
-  }
+    .customer-img img {
+        width: 240px;
+    }
 
-  .customer-subtitle {
-    font-size: 13.5px;
-  }
+    .customer-subtitle {
+        font-size: 13.5px;
+    }
 }
+
 @media (max-width: 320px) {
-  .customer-img img {
-    width: 200px;
-  }
+    .customer-img img {
+        width: 200px;
+    }
 
-  .customer-subtitle {
-    font-size: 13px;
-    line-height: 1.6;
-  }
+    .customer-subtitle {
+        font-size: 13px;
+        line-height: 1.6;
+    }
 
-  .customer-content {
-    font-size: 14px;
-  }
+    .customer-content {
+        font-size: 14px;
+    }
 }
 
 
@@ -864,7 +947,6 @@ body {
 }
 
 .update-head {
-    max-width: 800px;
     margin: 0 auto;
     text-align: center;
 }
@@ -873,7 +955,6 @@ body {
     font-weight: 600;
     font-size: 25.06px;
     height: 31px;
-    width: 772.64px;
     line-height: 30.63px;
     color: #4D4D4D;
 }
@@ -883,15 +964,13 @@ body {
     font-weight: 400;
     line-height: 16.71px;
     text-align: center;
-    height: 51px;
-    width: 437.13px;
+    align-items: center;
     color: #717171;
     margin-top: 12px;
     letter-spacing: 0%;
-    margin-left: 175px;
+    /* margin-left: 175px; */
 }
 
-/* cards row */
 .update-cards {
     display: flex;
     justify-content: space-between;
@@ -908,9 +987,6 @@ body {
     width: 100%;
     border-radius: 8px;
 }
-
-
-/* floating text card */
 .card-2 {
     position: absolute;
     bottom: -10px;
@@ -949,12 +1025,31 @@ body {
 
 }
 
+/* community update section responsive */
+@media (max-width:425px) {
+    .update-title {
+        text-align: center;
+        font-size: 20px;
+    }
 
+    .update-subtitle {
+        text-align: center;
+        font-size: 10px;
+    }
 
+}
+
+@media (max-width:375px) {
+    .update-subtitle {
+        text-align: center;
+        align-items: center;
+
+    }
+
+}
 
 /* suscipit section */
 .suscipit-sec {
-    width: 100%;
     background-color: #F5F7FA;
     margin-top: 30px;
 
@@ -995,7 +1090,21 @@ body {
 .demo-btn-center {
     text-align: center;
 }
-
+/* suscipit section resposive */
+@media (max-width:425px) {
+    .suscipit-title{
+        font-size: 30px;
+    }
+.get-demo-btn{
+    margin-bottom: 20px;
+}
+}
+@media (max-width:320px) {
+    .suscipit-title{
+        font-size: 25px;
+    }
+    
+}
 
 /* footer section */
 .footer-sec {
@@ -1034,7 +1143,7 @@ body {
     display: flex;
     gap: 60px;
     margin-left: 0;
-  
+
 }
 
 .company {
@@ -1053,8 +1162,6 @@ body {
 }
 
 .stay-title {
-    width: 111.37px;
-    height: 20px;
     font-weight: 600;
     font-size: 13.92px;
     line-height: 19.49px;
@@ -1109,65 +1216,155 @@ body {
 .send-png {
     position: absolute;
     right: 12px;
-    top: 25%;
+    top: 21%;
     transform: translateY(-50%);
     cursor: pointer;
 }
 
 
+/* footer responsive */
+@media (max-width: 768px) {
+
+    .footer-padding {
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .footer-subsec {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 20px;
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+
+    .company {
+        width: auto;
+        min-width: 100px;
+    }
+
+    .stay {
+        width: 40%;
+        min-width: 160px;
+        text-align: center;
+    }
 
 
-
-
-/* ================= RESPONSIVE FIXES ================= */
-
-/* Large Screens (1400px+) */
-@media (max-width: 1400px) {
-    .container {
-        padding: 0 40px;
+    .input-box {
+        width: 100%;
     }
 }
 
-
-/* Laptops (1200px) */
-@media (max-width: 1200px) {
-
-    .client,
-    .community-sec,
-    .calender-sec {
-        width: 100%;
-        height: auto;
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-
-    .unlock-sec {
-        margin-right: 0;
-    }
-
-    .unlock-heading {
-        margin-right: 0 !important;
-    }
+@media (max-width: 320px) {
 
     .footer-sec {
-        padding-left: 40px;
-        padding-right: 40px;
-        height: auto;
+        padding: 30px 15px;
+        text-align: center;
+    }
+
+    .footer-padding {
+        align-items: center;
+    }
+
+    .footer-left {
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer-logo img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .social {
+        justify-content: center;
+    }
+
+    .footer-subsec {
+        justify-content: center;
+        text-align: center;
+        gap: 14px;
+    }
+
+    .company,
+    .stay {
+        align-items: center;
+    }
+
+    .company-li {
+        padding: 0;
+    }
+
+    .input-wrapper {
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
+@media (max-width:375px) {
 
-/* Tablets (992px) */
-@media (max-width: 992px) {
-
-    .container {
-        padding: 0 30px;
+    .footer-sec {
+        padding: 30px 15px;
+        text-align: center;
     }
 
-    .lessons .d-flex,
-    .unlock-sec,
-    .calender-sec ,
-    .customer-sec .d-flex {
+    .footer-padding {
+        align-items: center;
+    }
+
+    .footer-left {
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer-logo img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .social {
+        justify-content: center;
+    }
+
+}
+
+@media (max-width:425px) {
+
+    .footer-sec {
+        padding: 30px 15px;
+        text-align: center;
+    }
+
+    .footer-padding {
+        align-items: center;
+    }
+
+    .send-png {
+        margin-top: 10px;
+    }
+
+    .footer-left {
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer-logo img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .social {
+        justify-content: center;
+    }
+
+}
+
+
+@media (max-width: 992px) {
+
+
+    .lessons .d-flex {
         flex-direction: column;
         text-align: center;
         gap: 30px;
@@ -1183,98 +1380,12 @@ body {
         width: 220px;
     }
 
-    .card-row {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 30px !important;
-    }
 
-    .achievements-wrapper {
-        flex-direction: column;
-        gap: 40px;
-        text-align: center;
-    }
 
-    .achievements-group {
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .customer-sec {
-        height: auto;
-        padding: 40px 30px;
-    }
-
-    .customer-subsec {
-        margin-left: 0;
-        width: 100%;
-    }
-
-    .update-cards {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
 }
 
-
-/* Mobile Landscape (768px) */
-@media (max-width: 768px) {
-
-    .nav-list {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 12px;
-    }
-
-    .client-logos {
-        flex-wrap: wrap;
-        gap: 20px;
-        justify-content: center;
-        height: auto;
-    }
-
-    .community-title,
-    .community-subtitle
-     {
-        width: 100%;
-        height: auto;
-    }
-
-    .achievements-group {
-        grid-template-columns: 1fr;
-    }
-
-    .calender-title,
-    .unlock-title,
-    .unlock-heading {
-        width: 100%;
-        height: auto;
-    }
-
-    .update-card {
-        width: 90%;
-    }
-
-    .card-2 {
-        position: relative;
-        bottom: 0;
-        transform: none;
-        width: 100%;
-        margin-top: -30px;
-    }
-
-    .suscipit-title {
-        font-size: 32px;
-        height: auto;
-    }
-}
-
-
-/* Mobile (480px) */
 @media (max-width: 480px) {
 
-    .container {
-        padding: 0 16px;
-    }
 
     .heading,
     .sub-heading {
@@ -1287,49 +1398,16 @@ body {
     }
 
     .reg-now-btn,
-    .register-button,
-    .learnmore-btn,
-    .learnmore-btn2,
-    .get-demo-btn {
+    .register-button {
         width: 100%;
         justify-content: center;
     }
 
-    .footer-padding {
-        flex-direction: column;
-        gap: 30px;
-        text-align: center;
-    }
-
-    .footer-subsec {
-        flex-direction: column;
-        align-items: center;
-        margin-left: 0;
-        width: 100%;
-        height: auto;
-    }
-
-    .company,
-    .stay {
-        width: 100%;
-        text-align: center;
-    }
-
-    .input-box {
-        margin-bottom: 0;
-    }
 }
-
-
-
-
-
-
-/* ---------- 992px (Tablet) ---------- */
 @media (max-width: 992px) {
 
     .d-flex {
-        flex-direction: column;
+        /* flex-direction: column; */
         text-align: center;
         gap: 30px;
     }
@@ -1340,94 +1418,25 @@ body {
         gap: 15px;
     }
 
-    .content,
-    .unlock-heading,
-    .calender-heading,
-    .customer-subsec {
-        width: 100% !important;
-        height: auto !important;
-    }
-
-    .card-row {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 30px !important;
-    }
-
-    .achievements-wrapper {
-        flex-direction: column;
-        text-align: center;
-        gap: 40px;
-    }
 
     .achievements-group {
         grid-template-columns: 1fr 1fr;
         justify-items: center;
     }
 
-    .customer-sec {
-        height: auto;
-        padding: 40px 20px;
-    }
 
     .update-cards {
         flex-wrap: wrap;
         justify-content: center;
     }
 
-    .footer-padding {
-        flex-wrap: wrap;
-        gap: 40px;
-    }
+    
 }
 
-
-/* ---------- 768px (Mobile Landscape) ---------- */
-@media (max-width: 768px) {
-
-    .heading,
-    .sub-heading {
-        font-size: 30px !important;
-        line-height: 38px !important;
-    }
-
-    .client-logos {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 25px;
-    }
-
-    .card {
-        width: 100%;
-        max-width: 320px;
-    }
-
-
-
-    .update-card {
-        width: 90%;
-    }
-
-    .card-2 {
-        position: relative;
-        bottom: 0;
-        transform: none;
-        width: 100%;
-        margin-top: -30px;
-    }
-
-    .suscipit-title {
-        font-size: 30px;
-        height: auto;
-    }
-}
-
-
-/* ---------- 576px (Mobile) ---------- */
 @media (max-width: 576px) {
 
     .container {
-        padding: 0 16px;
+        padding: 0 6px;
     }
 
     .heading,
@@ -1458,12 +1467,6 @@ body {
         flex-direction: column;
         align-items: center;
         width: 100%;
-    }
-
-    .company,
-    .stay {
-        width: 100%;
-        text-align: center;
     }
 
     .input-box {
