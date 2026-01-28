@@ -522,6 +522,7 @@ body {
         font-size: 23px;
     }
 }
+
 @media (max-width: 576px) {
     .unlock-maintitle {
         font-size: 22px;
@@ -548,7 +549,7 @@ body {
         text-align: center;
     }
 
-   
+
 
     .unlock-maintitle {
         font-size: 20px;
@@ -568,7 +569,7 @@ body {
 }
 
 @media (max-width: 320px) {
-    
+
 
     .unlock-maintitle {
         font-size: 16px;
@@ -707,10 +708,7 @@ body {
     gap: 40px;
 }
 
-.calender-sec img {
-    max-width: 100%;
-    height: auto;
-}
+
 
 .calender-heading {
     max-width: 460px;
@@ -746,16 +744,39 @@ body {
 
 /* calender section responsive */
 @media (max-width:768px) {
+
+    .calender-sec {
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        gap: 25px;
+    }
+
+    .calender-sec img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .calender-heading {
+        width: 100%;
+        text-align: left;
+    }
+
     .calender-subtitle {
         text-align: left;
+    }
+
+    .learnmore-btn2 {
+        display: block;
+        margin: 20px auto 0 auto;
     }
 
     .calender-maintitle {
         text-align: center;
         font-size: 23px;
     }
-
 }
+
 
 @media (max-width: 425px) {
     .calender-sec {
@@ -889,6 +910,11 @@ body {
         text-align: center;
     }
 
+    .customer-subtitle {
+
+        text-align: left;
+    }
+
 
     .customer-subsec {
         max-width: 100%;
@@ -915,19 +941,15 @@ body {
 }
 
 @media (max-width: 375px) {
-    .customer-img img {
-        width: 240px;
-    }
+
 
     .customer-subtitle {
         font-size: 13.5px;
+        text-align: left;
     }
 }
 
 @media (max-width: 320px) {
-    .customer-img img {
-        width: 200px;
-    }
 
     .customer-subtitle {
         font-size: 13px;
@@ -987,6 +1009,7 @@ body {
     width: 100%;
     border-radius: 8px;
 }
+
 .card-2 {
     position: absolute;
     bottom: -10px;
@@ -1004,8 +1027,6 @@ body {
     font-weight: 600;
     color: #717171;
     line-height: 19.49px;
-    width: 198.38px;
-    height: 59px;
 }
 
 .card-2 a {
@@ -1026,6 +1047,25 @@ body {
 }
 
 /* community update section responsive */
+
+@media (max-width: 768px) {
+    .update-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+    }
+
+
+    .update-card img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+}
+
+
 @media (max-width:425px) {
     .update-title {
         text-align: center;
@@ -1037,6 +1077,23 @@ body {
         font-size: 10px;
     }
 
+    .update-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .update-card {
+        width: 100%;
+        max-width: 270px;
+    }
+
+    .card-2 {
+        width: 85%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
 }
 
 @media (max-width:375px) {
@@ -1046,6 +1103,38 @@ body {
 
     }
 
+    .update-card,
+    .update-card:nth-child(3) {
+        width: 100%;
+        max-width: 270px;
+        
+    }
+
+    .update-card img,
+    .update-card:nth-child(3) img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+}
+
+
+
+
+@media (max-width: 320px) {
+    .update-card {
+        max-width: 270px;
+    }
+
+    .card-2 {
+        width: 92%;
+        padding: 14px;
+    }
+
+    .card-title2 {
+        font-size: 11px;
+        line-height: 16px;
+    }
 }
 
 /* suscipit section */
@@ -1090,20 +1179,23 @@ body {
 .demo-btn-center {
     text-align: center;
 }
+
 /* suscipit section resposive */
 @media (max-width:425px) {
-    .suscipit-title{
+    .suscipit-title {
         font-size: 30px;
     }
-.get-demo-btn{
-    margin-bottom: 20px;
+
+    .get-demo-btn {
+        margin-bottom: 20px;
+    }
 }
-}
+
 @media (max-width:320px) {
-    .suscipit-title{
+    .suscipit-title {
         font-size: 25px;
     }
-    
+
 }
 
 /* footer section */
@@ -1404,6 +1496,7 @@ body {
     }
 
 }
+
 @media (max-width: 992px) {
 
     .d-flex {
@@ -1430,7 +1523,7 @@ body {
         justify-content: center;
     }
 
-    
+
 }
 
 @media (max-width: 576px) {
